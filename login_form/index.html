@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Login</h1>
+            <form action="" method="post">
+                <div class="input-group">
+                    <input type="text" name="username" id="username" required />
+                    <label for="username">Username</label>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" id="password" required/>
+                    <label for="password">Password</label>
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="checkbox-and-forgotpass">
+                    <p>
+                        <input type="checkbox" /> Remenber Me
+                    </p>
+                     <a href="#" target="_blank">Change Password</a>
+                </div>
+                <input type="submit" name="submit" id="button"/>
+                <p>Are you SINGUP? <a href="#">Create Account?</a></p>
+            </form>
+        </div>
+    </body>
+</html>
